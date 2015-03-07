@@ -9,5 +9,13 @@
     "converter"
   ],
   "author": "mouratidis theofilos",
-  "license": "DO WHATEVER THE FUCK YOU LIKE"
+  "license": "Open Source License",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thmour/easy-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thmour/easy-time/issues"
+  },
+  "homepage": "https://github.com/thmour/easy-time"
 }
