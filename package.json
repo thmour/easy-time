@@ -1,0 +1,13 @@
+{
+  "name": "easy-time",
+  "version": "1.0.0",
+  "description": "Easiest time converter ever, units are mathematical (e.g. month=30 days)",
+  "main": "index.js",
+  "keywords": [
+    "easy",
+    "time",
+    "converter"
+  ],
+  "author": "mouratidis theofilos",
+  "license": "DO WHATEVER THE FUCK YOU LIKE"
+}
