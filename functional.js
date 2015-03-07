@@ -1,4 +1,5 @@
 module.exports = function(opts) {
+	opts = opts || {};
 	ctable = [1000, 60, 60, 24, 365 / 12, 12];
 	ntable = opts.table || ['milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'];
 
