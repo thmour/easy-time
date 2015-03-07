@@ -1,6 +1,6 @@
 {
   "name": "easy-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easiest time converter ever, units are mathematical (e.g. month=30 days)",
   "main": "index.js",
   "keywords": [
