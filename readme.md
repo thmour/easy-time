@@ -29,10 +29,18 @@ $ npm install easy-time
 ```
 
 Then import with:
+> Node
+
 ```js
 require('easy-time')(options)
 //or
 require('easy-time/functional')(options)
+```
+
+>Web
+
+```html
+<script id='easy-time' src="easy-time.web.min.js" table="msecs secs mins" singular="true"></script>
 ```
 
 ## Options

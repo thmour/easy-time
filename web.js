@@ -1,5 +1,10 @@
-module.exports = function(opts) {
-	opts = opts || {};
+(function() {
+	var temp;
+	var elem = document.getElementById('easy-time');
+	var opts = !elem ? {} : {
+		table: (temp = elem.getAttribute('table')) || temp.split(' '),
+		singular: elem.getAttribute('singular') === 'true'
+	};
 	
 	var ctable = [1000, 60, 60, 24, 365 / 12, 12];
 	var ntable = opts.table || ['milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'];
@@ -55,4 +60,4 @@ module.exports = function(opts) {
 			}
 		})(i)
 	}
-}.bind(this);
+}).call(this);
