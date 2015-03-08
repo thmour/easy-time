@@ -1,8 +1,11 @@
 (function() {
 	var temp;
-	var elem = document.getElementById('easy-time');
+	var elem = document.currentScript || (function() {
+      var scripts = document.getElementsByTagName('script');
+      return scripts[scripts.length - 1];
+    })();
 	var opts = !elem ? {} : {
-		table: (temp = elem.getAttribute('table')) || temp.split(' '),
+		table: (temp = elem.getAttribute('table')) && temp.split(' '),
 		singular: elem.getAttribute('singular') === 'true'
 	};
 	
